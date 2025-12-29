@@ -65,6 +65,7 @@ namespace{
   static const UserIntentTag negativeIntent = USER_INTENT(imperative_negative);
   static const UserIntentTag silenceIntent = USER_INTENT(silence);
   static const UserIntentTag playerHitIntent = USER_INTENT(blackjack_hit);
+  static const UserIntentTag playerHitMeIntent = USER_INTENT(blackjack_hit_me);
   static const UserIntentTag playerStandIntent = USER_INTENT(blackjack_stand);
   static const UserIntentTag playAgainIntent = USER_INTENT(blackjack_playagain);
 }
@@ -365,10 +366,13 @@ void BehaviorBlackJack::TransitionToHitOrStand()
   UserIntentComponent& uic = GetBehaviorComp<UserIntentComponent>();
 
   if(uic.IsUserIntentPending(playerHitIntent) ||
+     uic.IsUserIntentPending(playerHitMeIntent) ||
      uic.IsUserIntentPending(affirmativeIntent) ){
 
     if(uic.IsUserIntentPending(playerHitIntent)){
       uic.DropUserIntent(playerHitIntent);
+    } else if(uic.IsUserIntentPending(playerHitMeIntent)){
+      uic.DropUserIntent(playerHitMeIntent);
     } else if (uic.IsUserIntentPending(affirmativeIntent)){
       uic.DropUserIntent(affirmativeIntent);
     }

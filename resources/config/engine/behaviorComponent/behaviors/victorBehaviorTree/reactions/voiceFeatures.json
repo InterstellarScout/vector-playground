@@ -19,6 +19,7 @@
     "PopAWheelieVoiceCommand",
     "WireTest",
     "BlackJackVoiceCommand",
+    "TwentyQuestionsVoiceCommand",
     "PRDemoComeHere",
     "ComeHereVoiceCommand",
     "LookAtMeVoiceCommand",

@@ -3,9 +3,10 @@
   "behaviorID" : "CoordinateWhileHeldInPalm",
 
   "delegateID": "CoordinateWhileInAir",
-  
+
   "suppressingBehaviors": [
     "BlackJack",
+    "TwentyQuestions",
     "ReactToTouchPetting",
     "TakeAPhotoCoordinator",
     "WeatherResponses",

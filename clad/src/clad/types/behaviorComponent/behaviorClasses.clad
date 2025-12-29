@@ -68,6 +68,9 @@ enum uint_8 BehaviorClass {
   // blackjack
   BlackJack,
 
+  // twentyQuestions
+  TwentyQuestions,
+
   // character/howOldAreYou
   HowOldAreYou,
 

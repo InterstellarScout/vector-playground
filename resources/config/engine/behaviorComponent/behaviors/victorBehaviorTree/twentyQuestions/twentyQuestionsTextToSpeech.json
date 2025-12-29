@@ -1,0 +1,7 @@
+{
+  "behaviorID" : "TwentyQuestionsTextToSpeech",
+  "behaviorClass" : "TextToSpeechLoop",
+
+  "getInAnimation" : "BlackJack_SpeechGetIn",
+  "loopAnimation" : "BlackJack_SpeechShortStatement"
+}
