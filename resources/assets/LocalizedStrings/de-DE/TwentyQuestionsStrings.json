@@ -1,0 +1,50 @@
+{
+  "smartling": {
+    "translate_paths": [
+      "*/translation"
+    ],
+    "variants_enabled": true,
+    "translate_mode": "custom",
+    "placeholder_format_custom": [
+      "%%[^%]+?%%",
+      "%[^%]+?%",
+      "##[^#]+?##",
+      "__[^_]+?__",
+      "[$]\\{[^\\}\\{]+?\\}",
+      "\\{\\{[^\\}\\{]+?\\}\\}",
+      "(?<!\\{)\\{[^\\}\\{]+?\\}(?!\\})"
+    ],
+    "source_key_paths": [
+      "/{*}"
+    ]
+  },
+  "TwentyQuestions.Intro": {
+    "translation": "Lass uns zwanzig Fragen spielen. Denk an etwas und antworte mit ja oder nein."
+  },
+  "TwentyQuestions.Outro": {
+    "translation": "Das waren zwanzig Fragen. Danke fürs Mitspielen!"
+  },
+  "TwentyQuestions.Unknown": {
+    "translation": "Alles klar. Ich werte das als vielleicht."
+  },
+  "TwentyQuestions.Question01": {"translation": "Ist es ein Tier?"},
+  "TwentyQuestions.Question02": {"translation": "Ist es eine Person?"},
+  "TwentyQuestions.Question03": {"translation": "Ist es kleiner als ein Laib Brot?"},
+  "TwentyQuestions.Question04": {"translation": "Ist es größer als ein Auto?"},
+  "TwentyQuestions.Question05": {"translation": "Ist es normalerweise drinnen?"},
+  "TwentyQuestions.Question06": {"translation": "Ist es normalerweise draußen?"},
+  "TwentyQuestions.Question07": {"translation": "Ist es elektronisch?"},
+  "TwentyQuestions.Question08": {"translation": "Kann es sich selbst bewegen?"},
+  "TwentyQuestions.Question09": {"translation": "Kann man es essen?"},
+  "TwentyQuestions.Question10": {"translation": "Ist es ein Werkzeug?"},
+  "TwentyQuestions.Question11": {"translation": "Ist es bunt?"},
+  "TwentyQuestions.Question12": {"translation": "Findet man es oft zu Hause?"},
+  "TwentyQuestions.Question13": {"translation": "Ist es laut?"},
+  "TwentyQuestions.Question14": {"translation": "Ist es weich?"},
+  "TwentyQuestions.Question15": {"translation": "Hat es Räder?"},
+  "TwentyQuestions.Question16": {"translation": "Wird es für die Arbeit benutzt?"},
+  "TwentyQuestions.Question17": {"translation": "Trägt man es?"},
+  "TwentyQuestions.Question18": {"translation": "Ist es lebendig?"},
+  "TwentyQuestions.Question19": {"translation": "Hat es mit der Natur zu tun?"},
+  "TwentyQuestions.Question20": {"translation": "Ist es ein Spielzeug?"}
+}

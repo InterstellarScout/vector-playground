@@ -57,6 +57,10 @@
       "user_intent": "play_rollcube"
     },
     {
+      "cloud_intent": "intent_play_twentyquestions",
+      "user_intent": "play_twentyquestions"
+    },
+    {
       "cloud_intent": "intent_imperative_quiet",
       "app_intent": "intent_imperative_quiet",
       "user_intent": "imperative_quiet"
@@ -240,6 +244,10 @@
     },
     {
       "user_intent": "blackjack_hit",
+      "cloud_intent": "intent_blackjack_hit"
+    },
+    {
+      "user_intent": "blackjack_hit_me",
       "cloud_intent": "intent_blackjack_hit"
     },
     {

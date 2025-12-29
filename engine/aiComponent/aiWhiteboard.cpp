@@ -770,6 +770,7 @@ void AIWhiteboard::NotifyNewUserIntentPending(UserIntentTag userIntent)
     case UserIntentTag::play_anygame:
     case UserIntentTag::play_anytrick:
     case UserIntentTag::play_blackjack:
+    case UserIntentTag::play_twentyquestions:
     case UserIntentTag::play_fistbump:
     case UserIntentTag::play_pickupcube:
     case UserIntentTag::play_popawheelie:
@@ -780,6 +781,7 @@ void AIWhiteboard::NotifyNewUserIntentPending(UserIntentTag userIntent)
 
 
     case UserIntentTag::blackjack_hit:
+    case UserIntentTag::blackjack_hit_me:
     case UserIntentTag::blackjack_stand:
     case UserIntentTag::blackjack_playagain:
     case UserIntentTag::imperative_affirmative:

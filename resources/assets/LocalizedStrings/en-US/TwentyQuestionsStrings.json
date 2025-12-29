@@ -1,0 +1,50 @@
+{
+  "smartling": {
+    "translate_paths": [
+      "*/translation"
+    ],
+    "variants_enabled": true,
+    "translate_mode": "custom",
+    "placeholder_format_custom": [
+      "%%[^%]+?%%",
+      "%[^%]+?%",
+      "##[^#]+?##",
+      "__[^_]+?__",
+      "[$]\\{[^\\}\\{]+?\\}",
+      "\\{\\{[^\\}\\{]+?\\}\\}",
+      "(?<!\\{)\\{[^\\}\\{]+?\\}(?!\\})"
+    ],
+    "source_key_paths": [
+      "/{*}"
+    ]
+  },
+  "TwentyQuestions.Intro": {
+    "translation": "Let's play twenty questions. Think of something and answer yes or no."
+  },
+  "TwentyQuestions.Outro": {
+    "translation": "That's all twenty questions. Thanks for playing!"
+  },
+  "TwentyQuestions.Unknown": {
+    "translation": "Got it. I'll count that as a maybe."
+  },
+  "TwentyQuestions.Question01": {"translation": "Is it an animal?"},
+  "TwentyQuestions.Question02": {"translation": "Is it a person?"},
+  "TwentyQuestions.Question03": {"translation": "Is it smaller than a loaf of bread?"},
+  "TwentyQuestions.Question04": {"translation": "Is it bigger than a car?"},
+  "TwentyQuestions.Question05": {"translation": "Is it usually indoors?"},
+  "TwentyQuestions.Question06": {"translation": "Is it usually outdoors?"},
+  "TwentyQuestions.Question07": {"translation": "Is it electronic?"},
+  "TwentyQuestions.Question08": {"translation": "Can it move on its own?"},
+  "TwentyQuestions.Question09": {"translation": "Is it something you can eat?"},
+  "TwentyQuestions.Question10": {"translation": "Is it a tool?"},
+  "TwentyQuestions.Question11": {"translation": "Is it colorful?"},
+  "TwentyQuestions.Question12": {"translation": "Is it commonly found at home?"},
+  "TwentyQuestions.Question13": {"translation": "Is it noisy?"},
+  "TwentyQuestions.Question14": {"translation": "Is it soft?"},
+  "TwentyQuestions.Question15": {"translation": "Does it have wheels?"},
+  "TwentyQuestions.Question16": {"translation": "Is it used for work?"},
+  "TwentyQuestions.Question17": {"translation": "Is it something you wear?"},
+  "TwentyQuestions.Question18": {"translation": "Is it alive?"},
+  "TwentyQuestions.Question19": {"translation": "Is it related to nature?"},
+  "TwentyQuestions.Question20": {"translation": "Is it a toy?"}
+}

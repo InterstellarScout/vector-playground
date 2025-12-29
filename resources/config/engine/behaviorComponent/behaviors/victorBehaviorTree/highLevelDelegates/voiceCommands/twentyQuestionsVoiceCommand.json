@@ -1,0 +1,19 @@
+{
+  "behaviorID" : "TwentyQuestionsVoiceCommand",
+  "behaviorClass" : "DispatcherQueue",
+
+  "respondToUserIntents" : [
+    {
+      "type" : "play_twentyquestions"
+    }
+  ],
+
+  "autoShutOffIntentFeedback": true,
+
+  "behaviors": [
+    "DriveOffChargerFace",
+    "TwentyQuestions"
+  ],
+
+  "postBehaviorSuggestion": "Socialize"
+}

@@ -25,6 +25,11 @@
           "behavior" : "BlackJack",
           "cooldown_s" : 300.0,
           "weight" : 1.0
+        },
+        {
+          "behavior" : "TwentyQuestions",
+          "cooldown_s" : 300.0,
+          "weight" : 1.0
         }
       ]
     }
